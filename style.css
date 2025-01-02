@@ -1,0 +1,33 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+#about {
+    padding: 20px 0;
+}
+
+#projects .card {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Dodanie efektu hover na przyciski */
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
