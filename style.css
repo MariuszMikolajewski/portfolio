@@ -153,6 +153,14 @@ body{
     transform: scale(1.1,1.1);
     transition-duration: 0.6s;
 }
+.progress-card::skill-icon {
+  position: absolute;
+  top: -20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px; /* Set the width of the icon */
+  height: auto; /* Maintain aspect ratio */
+}
 .circular-progress{
     position: relative;
     height: 130px;
