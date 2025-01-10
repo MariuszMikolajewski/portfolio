@@ -63,7 +63,7 @@ body{
 }
 .h-btn:hover{
     background: #6f34fe;
-    color: #e0f7fa;
+    color: #fff;
     transform: translateY(-20px);
     transition-duration: 1s;
 }
