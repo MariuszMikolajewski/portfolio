@@ -3,7 +3,7 @@ let htmlProgress = document.querySelector(".html-css"),
   htmlValue = document.querySelector(".html-progress");
 
 let htmlStartValue = 0,
-  htmlEndValue = 90,
+  htmlEndValue = 80,
   htmlspeed = 30;
 
 let progresshtml = setInterval(() => {
@@ -45,7 +45,7 @@ let phpProgress = document.querySelector(".php"),
   phpValue = document.querySelector(".php-progress");
 
 let phpStartValue = 0,
-  phpEndValue = 80,
+  phpEndValue = 60,
   phpspeed = 30;
 
 let progressphp = setInterval(() => {
@@ -66,7 +66,7 @@ let reactProgress = document.querySelector(".reactjs"),
   reactValue = document.querySelector(".reactjs-progress");
 
 let reactStartValue = 0,
-  reactEndValue = 30,
+  reactEndValue = 92,
   rjsspeed = 30;
 
 let progressreact = setInterval(() => {
