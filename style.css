@@ -140,7 +140,85 @@ body{
 }
 
 /* skill section starts */
-.skill{
+/* skill section starts */
+.skill {
+    background-color: rgb(234, 234, 249);
+}
+
+.progress-card {
+    padding: 12% 10% 10% 15%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Rozdziela wykres i obrazek */
+}
+
+.progress-card:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.6s;
+}
+
+.skill-icon {
+    width: 130px; /* Dopasowanie rozmiaru obrazka do wykresu */
+    height: 130px;
+    object-fit: contain; /* Zachowuje proporcje obrazka */
+    margin-left: 20px; /* Odstęp między wykresem a obrazkiem */
+}
+
+.circular-progress {
+    position: relative;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.html-progress {
+    color: #fca61f;
+}
+
+.javascript-progress {
+    color: #6f34fe;
+}
+
+.php-progress {
+    color: #20c997;
+}
+
+.reactjs-progress {
+    color: #3f396d;
+}
+
+.text {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.heading p {
+    font-size: 1.3rem;
+}
+
+/* .skill{
     background-color: rgb(234, 234, 249);
 }
 .progress-card{
@@ -202,7 +280,7 @@ body{
 }
 .heading p{
     font-size: 1.3rem;
-}
+} */
 
 /* portfolio section starts */
 #myBtnContainer{
